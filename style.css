@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+.methodDiv {
+    align-items: baseline;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#selectValue {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 65px;
+    height: 60px;
+    padding: 10px 15px;
+    width: 200px;
+    margin-top: 47px;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+#searchInput {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 65px;
+    height: 60px;
+    padding: 10px 40px;
+    width: 500px;
+    margin-top: 47px;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    position: absolute;
+}
+
+.loop {
+    position: relative;
+    left: 80px;
+    z-index: 1;
+}
+
+#mainDiv {
+    background-color: rgb(255, 255, 255);
+    align-items: baseline;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 60px;
+}
+
+#mainDiv>p>i {
+    margin-right: 8px;
+}
+
+#cardsDiv {
+    height: 100vh;
+    gap: 2%;
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.country-card {
+    margin: auto;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    height: 390px;
+    width: 20%;
+    text-decoration: none;
+}
+
+.country-card img {
+    height: 200px;
+    width: 100%;
+}
+
+.country-card p {
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.country-card h2 {
+    margin-bottom: 22px;
+    font-size: 20px;
+    color: black;
+    margin-top: 22px;
+    margin-left: 25px;
+}
+
+.back {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px;
+    height: 50px;
+    padding: 10px 15px;
+    width: 180px;
+    text-align: center;
+    padding-top: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 19px;
+}
+
+#detailBody {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    gap: 90px;
+    margin-top: 150px;
+}
+
+.imgdiv {
+    border-radius: 10px;
+    width: 820px;
+    overflow: hidden;
+    height: 400px;
+}
+
+.imgdiv img {
+    width: 100%;
+    height: 100%;
+}
